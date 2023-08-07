@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGYSURBVHgBpVMxT8JAFH5tCqF1QCKLNaiDDkqiEjYZhcFEmPkXjG4SN6OTg4MuJk4kjjq6aKJxkKAmkLAQEmIZQIFEWgJDvXd6553VwfAlzbXfvXvv3ve9KsfX+26tVQVEyAhDLrkDztCGs/sjGJAVsWzGIL2ahYpVgounAuV0vwGJhRSo7DCiY7fB6jYAuSZZO/YrfSrWI90vkwSMY3EqjAktZEzRjAyhibAnKODXeYsidJ8Oytt7y2UJzMkIBHwGfRdbE3lsg2kTnYmB4gz7LvbDquONEIORDc7I4ZVYAk8Lh1e7Ugu5jTxMk4oir5PD25t7UH4pwXnxlMemV7KgiocRDqnc6belpM7XbWrtqhRr9Rrju6DG59b5hxmMfOogaIFA9VEHMzgrHcZ4xSWAf0CynBTR0C7Rsvh8gm4U67cg2ovjjM6gkLiyWO3k5kCqgJsYLKqNLuQzMXio38Hlc4HzOO4eEZn3Mmfz5D95TwIUS/9jaH4bJm2LDEOz1+BEYjFFNUguZb41IGojouYadMkfy26JDn4AO0fKFVf/NAkAAAAASUVORK5CYII=" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/html-css_59_elias-291356/assets/favicon-01-8dfa3eb7.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LakmuS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <script type="module" crossorigin src="/html-css_59_elias-291356/assets/index-d24c0191.js"></script>
+  <link rel="stylesheet" href="/html-css_59_elias-291356/assets/index-3404dc58.css">
+</head>
+
+<body>
+  <header class="header-bg  ">
+  <div class="header-container ">
+    <div class="header-block-left">
+      <nav class="header-nav">
+        <ul class="header-nav-menu list">
+          <li>
+            <a href="./index.html#how-it-works" class="header-nav-menu-item link">How It Works</a>
+          </li>
+          <li>
+            <a href="./index.html#vegetables" class="header-nav-menu-item link">Vegetables</a>
+          </li>
+          <li>
+            <a href="./index.html#contacts" class="header-nav-menu-item link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header-logo link" href="./index.html">
+        <svg class="header-logo-icon" width="16" height="16" aria-label="header veggieboost logo">
+          <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-logo"></use>
+        </svg>
+        &nbsp;&nbsp;veggieboost
+      </a>
+    </div>
+    <button type="button" class="burger-btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="burger-btn-icon" width="24" height="24" aria-label="open mobile menu icon">
+        <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <button type="button" class="header-btn-order" data-modal-open>
+      <svg class="header-btn-order-icon" width="20" height="20" aria-label="open order icon">
+        <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-shopping"></use>
+      </svg>
+    </button>
+  </div>
+
+  <!-- MODILE MENU -->
+  <div class="mobile-menu js-menu-container" id="mobile-menu">
+
+    <div class="wrap-header">
+      <button class="mobile-menu-close-btn js-close-menu" type="button">
+        <svg class="mobile-menu-close-icon" width="24" height="24" aria-label="close mobile menu icon">
+          <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-close"></use>
+        </svg>
+      </button>
+      <a class="header-logo link" href="./index.html">
+        <svg class="header-logo-icon" width="16" height="16" aria-label="header veggieboost logo">
+          <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-logo"></use>
+        </svg>
+        &nbsp;&nbsp;veggieboost
+      </a>
+
+
+    </div>
+
+
+
+    <nav class="mobile-menu-navigation">
+      <ul class="mobile-menu-nav-list list">
+        <li class="mobile-menu-nav-list-item">
+          <a href="./index.html#how-it-works" class="mobile-menu-nav-list-link link js-nav-ref">How It Works</a>
+        </li>
+        <li class="mobile-menu-nav-list-item">
+          <a href="./index.html#vegetables" class="mobile-menu-nav-list-link link js-nav-ref">Vegetables</a>
+        </li>
+        <li class="mobile-menu-nav-list-item">
+          <a href="./index.html#contacts" class="mobile-menu-nav-list-link link js-nav-ref">Contacts</a>
+        </li>
+        <li class="mobile-menu-nav-list-item">
+          <button type="button" class="header-mobile-btn-order mobile-menu-nav-list-link link" data-modal-open="">
+            <svg class="header-menu-btn-order-icon" width="20" height="20" aria-label="open order icon">
+              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-shopping"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+  <main>
+    <section class="section hero" id="organic">
+  <div class="container hero container-hero">
+    <div class="hero-left-side">
+      <ul class="list user-items">
+        <li class="user-item">
+          <picture>
+            <source srcset="/html-css_59_elias-291356/assets/desktop-user-03-670c82a7.png 1x, /html-css_59_elias-291356/assets/desktop-user-03@2x-62f604d1.png 2x"
+              media="(min-width: 1280px)" width="66" />
+            <source srcset="/html-css_59_elias-291356/assets/tablet-user-03-74a5353f.png 1x, /html-css_59_elias-291356/assets/tablet-user-03@2x-263748cf.png 2x"
+              media="(min-width: 768px)" width="50" />
+            <source srcset="data:image/png;base64,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 1x, /html-css_59_elias-291356/assets/mobile-user-03@2x-7ec15054.png 2x"
+              media="(max-width: 767px)" width="44" />
+            <img class="img-clean" src="./img/hero-mobile/mobile-user-03.png " alt="application" width="44" />
+          </picture>
+        </li>
+        <li class="user-item">
+          <picture>
+            <source srcset="/html-css_59_elias-291356/assets/desktop-user-02-7f9881d9.png 1x, /html-css_59_elias-291356/assets/desktop-user-02@2x-104bc59e.png 2x"
+              media="(min-width: 1280px)" width="66" />
+            <source srcset="/html-css_59_elias-291356/assets/tablet-user-02-3da88b8f.png 1x, /html-css_59_elias-291356/assets/tablet-user-02@2x-92a6dd1f.png 2x"
+              media="(min-width: 768px)" width="50" />
+            <source srcset="data:image/png;base64,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 1x, /html-css_59_elias-291356/assets/mobile-user-02@2x-061c0bb6.png 2x"
+              media="(max-width: 767px)" width="44" />
+            <img class="img-clean" src="./img/hero-mobile/mobile-user-02.png " alt="application" width="44" />
+          </picture>
+        </li>
+        <li class="user-item">
+          <picture>
+            <source srcset="/html-css_59_elias-291356/assets/desktop-user-01-5146fbaf.png 1x, /html-css_59_elias-291356/assets/desktop-user-01@2x-83da9a0b.png 2x"
+              media="(min-width: 1280px)" width="66" />
+            <source srcset="/html-css_59_elias-291356/assets/tablet-user-01-6e5cb6b3.png 1x, /html-css_59_elias-291356/assets/tablet-user-01@2x-9e8f822a.png 2x"
+              media="(min-width: 768px)" width="50" />
+            <source srcset="data:image/png;base64,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 1x, /html-css_59_elias-291356/assets/mobile-user-01@2x-af35c0d2.png 2x"
+              media="(max-width: 767px)" width="44" />
+            <img class="img-clean" src="../img/hero-mobile/mobile-user-01.png " alt="application" width="44" />
+          </picture>
+        </li>
+        <li class="reviews-count">
+          <p class="review-cointing">2k</p>
+          <p class="reviews">reviews</p>
+        </li>
+      </ul>
+      <h1 class="hero-title">organic <span class="hero-span">vegetables </span>to your diet today!</h1>
+      <p class="hero-text">Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables
+        available. Fresh
+        Harvest
+        Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.
+      </p>
+      <button class="hero-btn" data-modal-open>shop now</button>
+
+    </div>
+
+
+    <div class="hero-right-side">
+      <div class="bcg-client">
+        <picture>
+
+          <source srcset="/html-css_59_elias-291356/assets/desktop-hero-3195a408.webp 1x, /html-css_59_elias-291356/assets/desktop-hero-3195a408.webp 2x"
+            type="image/webp" />
+
+          <source srcset="/html-css_59_elias-291356/assets/desktop-hero-e7f7f8c7.png 1x, /html-css_59_elias-291356/assets/desktop-hero@2x-a3269a0c.png 2x" />
+
+          <img class="img-hero" src="./img/desktop-hero.png " alt="application" width="303">
+        </picture>
+
+      </div>
+      <ul class="list hero-list">
+
+        <li class="hero-list-item ">
+          <a href="#organic" class="link hero-list-link first-menu">#organic</a>
+        </li>
+        <li class="hero-list-item ">
+          <a href="#how-it-works" class="link hero-list-link">#products</a>
+        </li>
+        <li class="hero-list-item ">
+          <button type="button" class="link hero-list-link btn-basket" data-modal-open>#basket</button>
+        </li>
+        <li class="hero-list-item ">
+          <a href="#vegetables" class="link hero-list-link">#vegetables</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+    <section id="how-it-works" class="section">
+    <div class="container hiw-order">
+        <h2 class="hiw-header">To order your vegetable basket, simply follow these easy steps</h2>
+        <!-- <div class="hiw-broccoli"></div> -->
+        <picture class="hiw-broccoli">
+            <source 
+            srcset="/html-css_59_elias-291356/assets/img-vegetables-c56ef34e.png 1x, /html-css_59_elias-291356/assets/img-vegetables@2x-47a96e3b.png 2x" media="(min-width: 1280px)">
+            <source 
+            srcset="/html-css_59_elias-291356/assets/img-vegetables-aa0d4d47.png 1x, /html-css_59_elias-291356/assets/img-vegetables@2x-5465d16b.png 2x" media="(min-width: 768px)">
+            <source 
+            srcset="/html-css_59_elias-291356/assets/img-vegetables-127e6b9c.png 1x, /html-css_59_elias-291356/assets/img-vegetables@2x-8a08aa80.png 2x" media="(max-width: 767px)">
+            <img src="/html-css_59_elias-291356/assets/img-vegetables-127e6b9c.png" alt="broccoli">
+        </picture>
+            <ul class="hiw-order-list list">
+                <li class="hiw-list-items">Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home. </li>
+                <li class="hiw-list-items">Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</li>
+            </ul>
+    </div>
+</section>
+<section class="container section-hiw">
+    <div class="hiw-buystep">
+        <div class="hiw-background"></div>
+        <picture class="hiw-imggirl">
+            <source 
+            srcset="/html-css_59_elias-291356/assets/img-girl-2df78cca.png 1x, /html-css_59_elias-291356/assets/img-girl@2x-530d8b3a.png 2x" media="(min-width: 1280px)">
+            <source 
+            srcset="/html-css_59_elias-291356/assets/img-girl-1ff3d414.png 1x, /html-css_59_elias-291356/assets/img-girl@2x-5b056dec.png 2x" media="(min-width: 768px)">
+            <source 
+            srcset="/html-css_59_elias-291356/assets/img-girl-66b44621.png 1x, /html-css_59_elias-291356/assets/img-girl@2x-f8b7b811.png 2x" media="(max-width: 767px)">
+            <img src="/html-css_59_elias-291356/assets/img-girl-66b44621.png" alt="girl">
+        </picture>
+        <div class="hiw-buystep-text">
+            <h3 class="hiw-header-small">3 Easy Steps for Buying Fresh Vegetables</h3>
+            <ol class="hiw-buystep-list">
+                <li class="hiw-steps-item">
+                    <span class="hiw-buystep-num">1</span>
+                    <p class="hiw-buystep-list-items">Just choose the vegetable you want to order by clicking on the checkboxes next to it.</p>
+                </li>
+                <li class="hiw-steps-item">
+                    <span class="hiw-buystep-num">2</span>
+                    <p class="hiw-buystep-list-items hiw-min-text">Click on the basket and fill out the form.</p>
+                </li>
+                <li class="hiw-steps-item">
+                    <span class="hiw-buystep-num">3</span>
+                    <p class="hiw-buystep-list-items">Sit back and relax! Your fresh vegetables basket will be delivered.</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+    <section class="section">
+    <div class="adment">
+        <h2 class="hidden">Discount up to 40%! Taste the vitamins and keep your health</h2>
+        <div class="adment-orange-text">
+            <p class="adment-header-line-top-run">Discount up to
+                <span class="adment-span-40">40%!</span> &nbsp;
+                Taste <span class="adment-vitamins">the vitamins</span> and keep your health
+            </p>
+            <p class="adment-header-line-top-run">Discount up to
+                <span class="adment-span-40">40%!</span> &nbsp;
+                Taste <span class="adment-vitamins">the vitamins</span> and keep your health
+            </p>
+        </div>
+        <div class="adment-green-text">
+            <p class="adment-header-line-bottom-run ">Discount up to
+                <span class="adment-span-40">40%!</span> &nbsp;
+                Taste <span class="adment-vitamins">the vitamins</span> and keep your health
+            </p>
+            <p class="adment-header-line-bottom-run">Discount up to
+                <span class="adment-span-40">40%!</span> &nbsp;
+                Taste <span class="adment-vitamins">the vitamins</span> and keep your health
+            </p>
+        </div>
+    </div>
+</section>
+    <section class="section" id="vegetables">
+    <div class="container container-vegetables">
+        <h2 class="subtitile">oRGANIC vegetables</h2>
+        <p class="vegetables-text">Our organic vegetables are hand-picked from local farms and delivered straight to
+            your doorstep, ensuring that you get the freshest and most nutritious produce possible.</p>
+        <ul class="vegetables-list list">
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Carrot</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source srcset="/html-css_59_elias-291356/assets/carrot-a82df5d7.webp 1x, /html-css_59_elias-291356/assets/carrot@2x-f712d4f0.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/carrot-efa25e8c.png 1x, /html-css_59_elias-291356/assets/carrot@2x-8aae14b5.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="/html-css_59_elias-291356/assets/carrot-127fe9a9.webp 1x, /html-css_59_elias-291356/assets/carrot@2x-b966ce1b.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/carrot-fb8a1413.png 1x, /html-css_59_elias-291356/assets/carrot@2x-d6592540.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/carrot-fb8a1413.png" alt="carrot">
+                </picture>
+                <h4 class="vegetables-item-cost">100 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Brussel sprouts</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/brussel-0836c97c.webp 1x, /html-css_59_elias-291356/assets/brussel@2x-bd746309.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/brussel-87c356fc.png 1x, /html-css_59_elias-291356/assets/brussel@2x-d4b3fc29.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="/html-css_59_elias-291356/assets/brussel-0ab92254.webp 1x, /html-css_59_elias-291356/assets/brussel@2x-7a34f4fe.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/brussel-31a28cb6.png 1x, /html-css_59_elias-291356/assets/brussel@2x-0fc556b9.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/brussel-31a28cb6.png" alt="brussel">
+                </picture>
+                <h4 class="vegetables-item-cost">80 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Tomato</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source srcset="/html-css_59_elias-291356/assets/tomato-78efdb49.webp 1x, /html-css_59_elias-291356/assets/tomato@2x-7ea54e73.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/tomato-9a6e33a3.png 1x, /html-css_59_elias-291356/assets/tomato@2x-18b576bf.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="/html-css_59_elias-291356/assets/tomato-9e60c6bd.webp 1x, /html-css_59_elias-291356/assets/tomato@2x-20818ad0.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/tomato-b26a3f82.png 1x, /html-css_59_elias-291356/assets/tomato@2x-f4ee865a.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/tomato-b26a3f82.png" alt="tomato">
+                </picture>
+                <h4 class="vegetables-item-cost">40 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Eggplant</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/eggplant-0ec80ede.webp 1x, /html-css_59_elias-291356/assets/eggplant@2x-922d894d.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/eggplant-cfadf819.png 1x, /html-css_59_elias-291356/assets/eggplant@2x-eb1dbea8.png 2x"
+                        media="(min-width: 768px)">
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/eggplant-5ec9cd92.webp 1x, /html-css_59_elias-291356/assets/eggplant@2x-b180bfa2.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/eggplant-87f2d63d.png 1x, /html-css_59_elias-291356/assets/eggplant@2x-9a43af12.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/eggplant-87f2d63d.png" alt="eggplant">
+                </picture>
+                <h4 class="vegetables-item-cost">60 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Sweet potatoes</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/potatoes-245736d0.webp 1x, /html-css_59_elias-291356/assets/potatoes@2x-4e1b8470.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/potatoes-f1ca2bd4.png 1x, /html-css_59_elias-291356/assets/potatoes@2x-9e1749bf.png 2x"
+                        media="(min-width: 768px)">
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/potatoes-b461aa02.webp 1x, /html-css_59_elias-291356/assets/potatoes@2x-9cdbc7d8.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/potatoes-998bdc0e.png 1x, /html-css_59_elias-291356/assets/potatoes@2x-50426c40.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/potatoes-998bdc0e.png" alt="potatoes">
+                </picture>
+                <h4 class="vegetables-item-cost">80 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Leek</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source srcset="/html-css_59_elias-291356/assets/leek-7d7b4c62.webp 1x, /html-css_59_elias-291356/assets/leek@2x-bb329b8f.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/leek-bfeebc92.png 1x, /html-css_59_elias-291356/assets/leek@2x-1ce5af4d.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="/html-css_59_elias-291356/assets/leek-e746e15d.webp 1x, /html-css_59_elias-291356/assets/leek@2x-d23e8aef.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/leek-b2b25abb.png 1x, /html-css_59_elias-291356/assets/leek@2x-9cff9692.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/leek-b2b25abb.png" alt="leek">
+                </picture>
+                <h4 class="vegetables-item-cost">50 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Mushrooms</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/mushrooms-3386022f.webp 1x, /html-css_59_elias-291356/assets/mushrooms@2x-efd7ffbb.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/mushrooms-e6140a8a.png 1x, /html-css_59_elias-291356/assets/mushrooms@2x-4dabc78f.png 2x"
+                        media="(min-width: 768px)">
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/mushrooms-41c5184d.webp 1x, /html-css_59_elias-291356/assets/mushrooms@2x-a74cd230.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source
+                        srcset="/html-css_59_elias-291356/assets/mushrooms-83c15f1b.png 1x, /html-css_59_elias-291356/assets/mushrooms@2x-013b7c41.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/mushrooms-83c15f1b.png" alt="mushrooms">
+                </picture>
+                <h4 class="vegetables-item-cost">40 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item">
+                <div>
+                    <h3 class="vegetables-item-title">Corn</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source srcset="/html-css_59_elias-291356/assets/corn-ceb3f3cb.webp 1x, /html-css_59_elias-291356/assets/corn@2x-038283d8.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/corn-5f0e8242.png 1x, /html-css_59_elias-291356/assets/corn@2x-3cd2f4a2.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="/html-css_59_elias-291356/assets/corn-44579cf1.webp 1x, /html-css_59_elias-291356/assets/corn@2x-407fd00c.webp 2x"
+                        media="(max-width: 767px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/corn-b505fc56.png 1x, /html-css_59_elias-291356/assets/corn@2x-6e7f4f00.png 2x"
+                        media="(max-width: 767px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/corn-b505fc56.png" alt="corn">
+                </picture>
+                <h4 class="vegetables-item-cost">60 UAH / kg</h4>
+            </li>
+            <li class="vegetables-item disp-none">
+                <div>
+                    <h3 class="vegetables-item-title">Radish</h3>
+                    <p class="vegetables-item-text">Plant</p>
+                </div>
+                <picture>
+                    <source srcset="/html-css_59_elias-291356/assets/radish-d63ffdf2.webp 1x, /html-css_59_elias-291356/assets/radish@2x-a401aa52.webp 2x"
+                        media="(min-width: 768px)" type="image/webp">
+                    <source srcset="/html-css_59_elias-291356/assets/radish-ecd0fbbb.png 1x, /html-css_59_elias-291356/assets/radish@2x-aa29022a.png 2x"
+                        media="(min-width: 768px)">
+                    <img class="vegetables-item-picture" src="/html-css_59_elias-291356/assets/radish-ecd0fbbb.png" alt="radish">
+                </picture>
+                <h4 class="vegetables-item-cost">90 UAH / kg</h4>
+            </li>
+        </ul>
+        <button class="vegetables-button" data-modal-open>
+            <span class="vegetables-button-rotate">
+                <svg class="vegetables-button-icon" width="14" height="14">
+                    <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-vector"></use>
+                </svg>
+                <span class="vegetables-button-name">oRDER</span>
+            </span>
+        </button>
+    </div>
+</section>
+    <section class="container delivery-container">
+  <div class="delivery-bg">
+    <div class="delivery-bg-content">
+      <div class="delivery-bg-svg"></div>
+      <h2 class="delivery-h2">The best shipping for you! <span class="delivery-span-first">Your products</span> always
+        arrive in the <span class="delivery-span-second">best</span> conditions!</h2>
+    </div>
+  </div>
+</section>
+    <section class="callback-container container" id="callback-container">
+  <div class="left-column">
+    <h2 class="callback-h2">Fresh Harvest Box has got you covered</h2>
+    <p class="callback-p">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat
+      healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+    <form class="callback-form">
+      <div class="input-wrapper">
+        <label class="callback-label">
+          <input name="phone" type="tel" placeholder="+380()" class="callback-label-input" maxlength="13" />
+        </label>
+        <button type="submit" class="recall-btn">Recall</button>
+      </div>
+    </form>
+  </div>
+  <div class="right-column">
+    <div class="callback-img-bg">
+      <picture>
+        <source media="(min-width:1280px)" width="525"
+          srcset="/html-css_59_elias-291356/assets/girl-desk-678bbbec.png 1x, /html-css_59_elias-291356/assets/girl-desk@2x-9dd2fce7.png 2x" />
+        <source media="(min-width:768px)" width="629"
+          srcset="/html-css_59_elias-291356/assets/girl-tab-3efd278d.png 1x, /html-css_59_elias-291356/assets/girl-tab@2x-d0ff8636.png 2x" />
+        <source media="(max-width:767px)" width="335"
+          srcset="/html-css_59_elias-291356/assets/girl-8089695c.png 1x, /html-css_59_elias-291356/assets/girl@2x-60e45eb9.png 2x" />
+        <img class="callback-img" alt="Women holding a broccoli" src="/html-css_59_elias-291356/assets/girl-8089695c.png">
+      </picture>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="footer-bg">
+  <div class="container footer-container">
+    <div class="footer-container-left">
+      <div class="block-tablet-left">
+        <picture>
+          <source
+            srcset="/html-css_59_elias-291356/assets/footer-tablet-dekstop-0d02669f.jpg 1x, /html-css_59_elias-291356/assets/footer-tablet-dekstop@2x-eae3ce2f.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/html-css_59_elias-291356/assets/footer-mobile-d9c1c639.jpg 1x, /html-css_59_elias-291356/assets/footer-mobile@2x-cb85f8c6.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="footer-image"
+            src="/html-css_59_elias-291356/assets/footer-mobile-d9c1c639.jpg"
+            alt="photo vegetables"
+          />
+        </picture>
+        <div class="wrap-logo-footer">
+          <a class="logo link" href="./index.html">
+            <svg
+              class="logo-icon"
+              width="16"
+              height="16"
+              aria-label="veggieboost logo"
+            >
+              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-logo"></use>
+            </svg>
+            &nbsp;&nbsp;veggieboost
+          </a>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <ul class="menu-nav list">
+          <li>
+            <a
+              href="./index.html#how-it-works"
+              class="menu-nav-item link-footer link"
+              >How It Works</a
+            >
+          </li>
+          <li>
+            <a
+              href="./index.html#vegetables"
+              class="menu-nav-item link-footer link"
+              >Vegetables</a
+            >
+          </li>
+          <li>
+            <a
+              href="./index.html#contacts"
+              class="menu-nav-item link-footer link"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="block-tablet-rigth">
+      <ul class="footer-social-list list">
+        <li class="footer-social-item">
+          <a class="footer-social-link" href="">
+            <svg
+              class="footer-social-icon"
+              width="24"
+              height="24"
+              aria-label="facebook icon"
+            >
+              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-face-book"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link" href="">
+            <svg
+              class="footer-social-icon"
+              width="24"
+              height="24"
+              aria-label="instagram icon"
+            >
+              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link" href="">
+            <svg
+              class="footer-social-icon"
+              width="24"
+              height="24"
+              aria-label="youtube icon"
+            >
+              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <address class="address" id="contacts">
+        <ul class="address-list list">
+          <li class="address-item">
+            <a class="address-tel link-footer link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+          <li class="address-item">
+            <p class="address-text">
+              1678 S. Pioneer Road Salt Lake City UT 84104
+            </p>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</footer>
+
+
+  <!--Modal Window-->
+<div class="backdrop is-hidden" data-modal="">
+   <div class="modal-window">
+      <div class="modal-content">
+         <!--Modal title-->
+         <h2 class="visually-hidden modal-title">YOUR ORDER</h2>
+         <!--Modal cards-->
+         <ul class="modal-card-container">
+            <li class="modal-card list">
+               <div class="modal-item">
+                  <h2 class="modal-card-title">Cabbage Basket</h2>
+                  <p class="modal-card-paragraph">Plant</p>
+                  <picture class="img-clean">
+                     <source
+                        srcset="/html-css_59_elias-291356/assets/cabbage@1x-40aba131.png 1x, /html-css_59_elias-291356/assets/cabbage@2x-00a0b0f3.png 2x"
+                        media="(min-width: 768px)">
+                     <source 
+                        srcset="/html-css_59_elias-291356/assets/cabbage@1x-40aba131.png 1x, /html-css_59_elias-291356/assets/cabbage@2x-00a0b0f3.png 2x"
+                        media="(max-width: 767px)">
+                     <img class="img-clean modal-img" src="/html-css_59_elias-291356/assets/cabbage-193ffd6b.png" alt="cabbage">
+                  </picture>
+                  <div class="checkbox-container">
+                     <input class="modal-input" type="checkbox" id="checkbox-cabbage" name="cabbage" value="true">
+                     <label class="modal-checkbox-label" for="checkbox-cabbage">
+                        <span class="modal-checkbox-custom">
+                           <svg class="checkbox-custom-icon" width="8" height="8">
+                              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-checkbox"></use>
+                           </svg>
+                        </span>
+                     </label>
+                     </div>
+               </div>
+            </li>
+            <li class="modal-card list">
+               <div class="modal-item">
+                  <h2 class="modal-card-title">Tomato Basket</h2>
+                  <p class="modal-card-paragraph">Plant</p>
+                  <picture class="img-clean">
+                     <source
+                        srcset="/html-css_59_elias-291356/assets/tomato@1x-685dca56.png 1x, /html-css_59_elias-291356/assets/tomato@2x-80c60e04.png 2x"
+                        media="(min-width: 768px)">
+                     <source 
+                        srcset="/html-css_59_elias-291356/assets/tomato@1x-685dca56.png 1x, /html-css_59_elias-291356/assets/tomato@2x-80c60e04.png 2x"
+                        media="(max-width: 767px)">
+                     <img class="img-clean modal-img" src="/html-css_59_elias-291356/assets/tomato@1x-685dca56.png" alt="tomato">
+                  </picture>
+                  <div class="checkbox-container">
+                     <input class="modal-input" type="checkbox" id="checkbox-tomato" name="tomato" value="true">
+                     <label class="modal-checkbox-label" for="checkbox-tomato">
+                        <span class="modal-checkbox-custom">
+                           <svg class="checkbox-custom-icon" width="8" height="8">
+                              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-checkbox"></use>
+                           </svg>
+                        </span>
+                     </label>
+                  </div>
+               </div>
+            </li>
+            <li class="modal-card list">
+               <div class="modal-item">
+                  <h2 class="modal-card-title">Vegetables Basket</h2>
+                  <p class="modal-card-paragraph">Plant</p>
+                  <picture class="img-clean">
+                     <source
+                        srcset="/html-css_59_elias-291356/assets/vegetables@1x-0f877737.png 1x, /html-css_59_elias-291356/assets/vegetables@2x-9a3ce9f4.png 2x"
+                        media="(min-width: 768px)">
+                     <source 
+                        srcset="/html-css_59_elias-291356/assets/vegetables@1x-0f877737.png 1x, /html-css_59_elias-291356/assets/vegetables@2x-9a3ce9f4.png 2x"
+                        media="(max-width: 767px)">
+                     <img class="img-clean modal-img" src="/html-css_59_elias-291356/assets/vegetables-ff1493fb.png" alt="vegetables">
+                  </picture>
+                  <div class="checkbox-container">
+                     <input class="modal-input" type="checkbox" id="checkbox-vegetables" name="vegetables" value="true">
+                     <label class="modal-checkbox-label" for="checkbox-vegetables">
+                        <span class="modal-checkbox-custom">
+                           <svg class="checkbox-custom-icon" width="8" height="8">
+                              <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-checkbox"></use>
+                           </svg>
+                        </span>
+                     </label>
+                  </div>
+               </div>
+            </li>
+         </ul>
+      </div>
+      <!--Modal form-->
+      <div class="modal-form">
+         <div class="form-wrap-container">
+            <form class="form" autocomplete="off">
+               <!--Name-->
+               <div class="form-wrap">
+                  <div class="wrap-user">
+                     <input 
+                     type="text" 
+                     name="user-name"  
+                     class="input-form" 
+                     placeholder="Enter full name..." 
+                     pattern="\w{3,16}" 
+                     id="user-name" 
+                     required>
+                  </div>
+               </div>
+               <!--Email-->
+               <div class="form-wrap">
+                  <div class="wrap-user">
+                     <input 
+                     type="email" 
+                     name="text" 
+                     class="input-form" 
+                     placeholder="Enter Email.." 
+                     pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
+                     id="email" 
+                     required>
+                  </div>
+               </div>
+               <!--Card-->
+               <div class="form-wrap">
+                  <div class="wrap-user">
+                     <input type="text" 
+                     name="user-name" 
+                     class="input-form"
+                     minlength="16"
+                     maxlength="16"
+                     pattern="[0-9]+" 
+                     placeholder="Enter card..." 
+                     id="card" 
+                     required>
+                  </div>
+               </div>
+               <!--Comments-->
+               <div class="wrap-user-comment">
+               <textarea class="textarea-form" name="user-comment" placeholder="Enter comments..." id="user-comment"></textarea>
+               </div>
+               <!--Button-->
+               <button class="btn-form" type="submit">Submit</button>
+            </form>
+         </div>
+            <div class="modal-girl-pack"><img class="modal-girl" src="/html-css_59_elias-291356/assets/modal-girl@1x-4594f10e.png" alt="girl"></div>
+      </div>
+      <button type="button" class="modal-btn" data-modal-close="">
+         <svg class="svg-close-btn" width="28" height="28">
+            <use href="/html-css_59_elias-291356/assets/sprite-48f671e1.svg#icon-close"></use>
+         </svg>
+      </button>
+   </div>
+</div>
+
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>
